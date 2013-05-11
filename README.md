@@ -1,7 +1,7 @@
 Workaholic Webcrawler 
 ===================== 
 
-An extensible multi-threaded Web crawler.
+An extensible multi-threaded Web crawler. 
 Useful in a multinode system where DB is centralized or clustered. 
 
 
@@ -9,17 +9,17 @@ Features:
 ========= 
 
 * Uses sqlite database. 
-* Batch Processing of DB query. 
-* Efficiently uses two queues 
+* Batch Processing of DB query.
+* Efficiently uses two queues
 
-    * raw queue -> which the slave pulls out of. 
-    * final queue -> which the manager pulls out of and verifies it using DB calls 
+    * raw queue -> which the slave pulls out of.
+    * final queue -> which the manager pulls out of and verifies it using DB calls
 
-* Each node has 1 manager and x slaves 
-* The manager queries the central database 
-* The database also stores "backlinks" -> the number of backlinks to a particular page. 
-* User-Agent Header is customizable. 
-* Switch Between urllib2 (Good socks support) or the requests library. 
+* Each node has 1 manager and x slaves
+* The manager queries the central database
+* The database also stores "backlinks" -> the number of backlinks to a particular page.
+* User-Agent Header is customizable.
+* Switch Between urllib2 (Good socks support) or the requests library.
 
 
 Requirements: 
