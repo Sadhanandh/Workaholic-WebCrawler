@@ -13,10 +13,10 @@ Features:
 * Efficiently uses two queues
 
     * raw queue -> which the slave pulls out of.
-    * final queue -> which the manager pulls out of and verifies it using DB calls
+    * final queue -> which the manager pulls out of and verifies it using DB calls.
 
-* Each node has 1 manager and x slaves
-* The manager queries the central database
+* Each node has 1 manager and x slaves.
+* The manager queries the central database.
 * The database also stores "backlinks" -> the number of backlinks to a particular page.
 * User-Agent Header is customizable.
 * Switch Between urllib2 (Good socks support) or the requests library.
@@ -26,6 +26,7 @@ Requirements:
 ============= 
 
 python-lxml (can also do a regex search instead) 
+
 optional( python-requests ) 
 
 
