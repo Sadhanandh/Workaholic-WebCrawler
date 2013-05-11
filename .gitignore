@@ -1,0 +1,11 @@
+#python
+*.pyc
+
+#sqlite3 db
+*.db
+
+#logs
+log.txt
+
+#vim swap
+*.swp
