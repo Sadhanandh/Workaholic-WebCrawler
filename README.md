@@ -20,7 +20,13 @@ Features:
 * The database also stores "backlinks" -> the number of backlinks to a particular page.
 * User-Agent Header is customizable.
 * Switch Between urllib2 (Good socks support) or the requests library.
+* Has 3 effectively implemented mutex locks.
 
+
+Image: 
+====== 
+
+![WebCrawler](../webcrawl.jpg?raw=true) 
 
 Requirements: 
 ============= 
@@ -65,10 +71,13 @@ Other options:
 TODO: 
 ======= 
 
-* Use Multi-clustered MySql DB server co-operating with a Node community 
+* Use Multi-clustered MySql DB server co-operating with a Node community. 
 * Separate IO bound slaves  (that uses threading library) and CPU bound slaves (that uses multiprocessing library) to  maximize the throughput. 
 * Respect Robot.txt (DB) 
-* Support Multi-Proxy IP's and also every page of the base url should be crawled through the same proxy (DB) 
+* Support Multi-Proxy IP's and also every page of the base url should be crawled through the same proxy. (DB) 
+* Dynamically terminate and create threads (Slaves) based on queue's idle tim and system variables. 
+* Implement a shareable queue b/w - "nodes" and b/w - "I/O bound Slaves and CPU bound Slaves". 
+* Extend the above using Load balancing / Load sharing techniques. 
 
 CANDO: 
 ====== 
