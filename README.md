@@ -33,7 +33,7 @@ Requirements:
 
 python-lxml (can also do a regex search instead) 
 
-optional( python-requests ) 
+python-requests ( optional ) 
 
 
 Usage: 
@@ -75,7 +75,7 @@ TODO:
 * Separate IO bound slaves  (that uses threading library) and CPU bound slaves (that uses multiprocessing library) to  maximize the throughput. 
 * Respect Robot.txt (DB) 
 * Support Multi-Proxy IP's and also every page of the base url should be crawled through the same proxy. (DB) 
-* Dynamically terminate and create threads (Slaves) based on queue's idle tim and system variables. 
+* Dynamically terminate and create threads (Slaves) based on queue's idle time and system variables. 
 * Implement a shareable queue b/w - "nodes" and b/w - "I/O bound Slaves and CPU bound Slaves". 
 * Extend the above using Load balancing / Load sharing techniques. 
 
