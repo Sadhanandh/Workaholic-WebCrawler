@@ -31,9 +31,9 @@ Working:
 Requirements: 
 ============= 
 
-python-lxml (can also do a regex search instead) 
+* python-lxml (can also do a regex search instead) 
 
-python-requests ( optional ) 
+* python-requests* ( optional ) 
 
 
 Usage: 
