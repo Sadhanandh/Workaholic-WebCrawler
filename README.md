@@ -26,7 +26,7 @@ Features:
 Image: 
 ====== 
 
-![WebCrawler](../blob/master/webcrawl.jpg?raw=true) 
+![WebCrawler](../master/webcrawl.jpg?raw=true) 
 
 Requirements: 
 ============= 
