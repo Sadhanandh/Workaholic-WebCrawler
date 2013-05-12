@@ -23,7 +23,7 @@ Features:
 * Has 3 effectively implemented mutex locks.
 
 
-Image: 
+Working: 
 ====== 
 
 ![WebCrawler](../master/webcrawl.jpg?raw=true) 
