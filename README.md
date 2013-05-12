@@ -48,7 +48,7 @@ On Ubuntu/Debian:
 ```
 sudo apt-get install python-lxml
 ```
-or 
+or  
 On Windows/Mac/\*nix 
 ```
 pip install lxml
